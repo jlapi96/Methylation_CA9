@@ -5,3 +5,14 @@ This repository contains a Jupyter Notebook implementing a complete Python pipel
 The notebook is fully self-contained and, after adjusting the file paths for the cancer type of interest, can be executed end-to-end to identify methylation sites, their genomic locations, and generate the CSV files used in the manuscript. Required packages are automatically checked and installed upon execution.
 
 Code for statistical analysis is available upon request.
+
+# Requirements
+Python 3.12.7 or higher (tested with Python 3.12.7). Jupyter Notebook 7.4.5 or higher.
+
+The following packages are required and will be automatically checked and installed upon execution:
+
+  - pandas
+  - numpy
+  - scipy
+  - matplotlib
+  - requests
